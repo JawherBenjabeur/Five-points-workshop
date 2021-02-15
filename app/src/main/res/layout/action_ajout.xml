@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#00CCFF"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ActivityContact">
+
+
+
+    <LinearLayout
+        android:id="@+id/layaction"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="References"
+                android:textColor="#510C0C"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/txtref"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="reference"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/laytitre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Titre"
+                android:textColor="#510C0C"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/txttitre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="titre"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layprix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Prix"
+                android:textColor="#510C0C"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/txtprix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="prix"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layquantit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Quantité"
+                android:textColor="#510C0C"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/txtquantit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="quantiter"
+                android:inputType="phone" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layNavig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capsule"
+            android:padding="10dp"
+            android:text="Précédent" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capsule"
+            android:text="Suivant " />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/btnAjout"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capsule"
+            android:text="Ajouter" />
+
+        <Button
+            android:id="@+id/btnMiseAjour"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capsule"
+            android:text="Modifier" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capsule"
+            android:text="Supprimer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laysave"
+        android:layout_width="393dp"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/btnAnnuler"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capsule"
+            android:text="Annuler" />
+
+        <Button
+
+            android:id="@+id/btnEnreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capsule"
+            android:text="Enregistrer" />
+    </LinearLayout>
+
+</LinearLayout>

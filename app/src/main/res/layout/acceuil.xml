@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="298dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="La liste des produits"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/btnRoman"
+        android:layout_width="337dp"
+        android:layout_height="55dp"
+        android:text="Romance"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="337dp"
+        android:layout_height="55dp"
+        android:text="Action"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <Button
+        android:id="@+id/btnhorreur"
+        android:layout_width="337dp"
+        android:layout_height="55dp"
+        android:text="horreur"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="349dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
